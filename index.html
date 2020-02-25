@@ -18,52 +18,15 @@
 
     <title>Hello, world!</title>
   </head>
-  <body class="bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <div class="card card-body text-center mt-5">
-            <h1 class="heading display-5 pb-3">loan caculator</h1>
-            <form id="load-form">
-              <div class="form-group">
-                <div class="input-group">
-                  <span class="input-group-text" >$</span>
-                  <input type="number" class="form-control" id="amount" placeholder="loan amount">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="input-group">
-                  <span class="input-group-text">%</span>
-                  <input type="number" class="form-control" id="interest" placeholder="loan amount">
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="number"  id="years" placeholder="year to repay" class="form-control">
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Caculate" class="btn btn-dark btn-block">
-              </div>
-            </form>
-            <!-- <div id="loading"><img src="./img/IMG_0254.jpeg" alt="pic"></div>
-            <h5>Results</h5>
-            <div class="form-group">
-              <div class="input-group">
-                <span class="input-group-text">Monthly Payment</span>
-                <input type="number" id="monthly-payment" class="form-control" disabled>
-              </div>
-              <div class="input-group">
-                <span class="input-group-text">Total Payment</span>
-                <input type="number" id="total-payment" class="form-control" disabled>
-              </div>
-              <div class="input-group">
-                <span class="input-group-text">Total Interest</span>
-                <input type="number" id="total-interest" class="form-control" disabled>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
+  <body>
+
+    <h1>来猜数字哦</h1>
+    <h5>差一个数字从 <span class="bg-warning">1</span> 到 <span class="bg-warning">10</span></h5>
+    <form id="guess-form"> 
+      <input type="number" name="" id="guessInput">
+      <input type="submit" value="看结果" id="submit">
+    </form>
+    <p class="output"></p>
 
 
     <!-- Optional JavaScript -->
